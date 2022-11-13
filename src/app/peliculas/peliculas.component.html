@@ -1,0 +1,29 @@
+<table border="1">
+    <tr>
+       
+        <td><h1>NOMBRE</h1></td>
+        <td><h1>GENERO</h1></td>
+        <td><h1>DIRECTOR</h1></td>
+      
+    </tr>
+    <tr>
+      <td>{{pelicula.nombre}}</td>
+      <td>{{pelicula.genero}}</td>
+      <td>{{pelicula.director}}</td>
+    
+    </tr>
+   
+  </table>
+  
+  <div>
+    <label>Nombre:</label>
+    <input [(ngModel)]="pelicula.nombre" placeholder="nombre de pelicula">
+  </div>
+  <div>
+    <label>GENERO:</label>
+    <input [(ngModel)]="pelicula.genero" placeholder="genero de pelicula">
+  </div>
+  <div>
+    <label>DIRECTOR:</label>
+    <input [(ngModel)]="pelicula.director" placeholder="director de pelicula">
+  </div> 
